@@ -23,7 +23,7 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - run: pip install mkdocs-material-extensions
-      - run: pip install mkdocs-git-revision-date-localized-plug
+      - run: pip3 install mkdocs-git-revision-date-localized-plug
       - run: pip install jinja2
       - run: pip install markdown
       - run: pip install pygments
