@@ -46,7 +46,9 @@ jobs:
             "mkdocs-minify-plugin>=0.3" \
             "mkdocs-rss-plugin>=1.2" \
             "mkdocs-redirects>=1.0" \
-            "pillow<10"
+            "pillow<10" \
+            pygments>=2.14 \
+            pymdown-extensions>=9.9.1
 
       - name: Deploy documentation
         run: |
