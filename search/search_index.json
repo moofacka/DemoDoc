@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-,:!=\\[\\]()\"`/]+|\\.(?!\\d)|&[lg]t;|(?!\\b)(?=[A-Z][a-z])","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Home","text":"<p>Welcome to DemoDoc.</p>"}]}

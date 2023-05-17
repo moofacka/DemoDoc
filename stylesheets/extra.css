@@ -1,0 +1,32 @@
+/* Setting font sizes */
+.md-typeset {
+    font-size: .7rem;
+}
+.md-typeset h1, .md-typeset h2 {
+    font-weight: 600;
+}
+.md-typeset svg {
+    width: .8rem;
+}
+/* Gives a bit more space in the middle for reading */
+@media only screen and (min-width: 76.25em) {
+    .md-main__inner {
+        max-width: 130em;
+    }
+    .md-sidebar--primary {
+        left: 0;
+    }
+    .md-sidebar--secondary {
+        right: 0;
+        margin-left: 0;
+        -webkit-transform: none;
+        transform: none;   
+    }
+}
+/* Making tables a bit more compact*/
+.md-typeset table:not([class]) th {
+    padding: .5em 1.25em;
+}
+.md-typeset table:not([class]) td {
+    padding: .5em 1.25em;
+}
